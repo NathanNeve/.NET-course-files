@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\MyFitnessWebApp.csproj": {}
+    "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\MyFitnessWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\MyFitnessWebApp.csproj": {
+    "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\MyFitnessWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\MyFitnessWebApp.csproj",
+        "projectUniqueName": "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\MyFitnessWebApp.csproj",
         "projectName": "MyFitnessWebApp",
-        "projectPath": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\MyFitnessWebApp.csproj",
+        "projectPath": "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\MyFitnessWebApp.csproj",
         "packagesPath": "C:\\Users\\Natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\obj\\",
+        "outputPath": "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,8 +21,7 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net7.0": {

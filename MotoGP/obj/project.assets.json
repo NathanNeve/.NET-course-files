@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Natha\\source\\repos\\MotoGP\\MotoGP.csproj",
+      "projectUniqueName": "C:\\_repos_\\.NET-course-files\\MotoGP\\MotoGP.csproj",
       "projectName": "MotoGP",
-      "projectPath": "C:\\Users\\Natha\\source\\repos\\MotoGP\\MotoGP.csproj",
+      "projectPath": "C:\\_repos_\\.NET-course-files\\MotoGP\\MotoGP.csproj",
       "packagesPath": "C:\\Users\\Natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Natha\\source\\repos\\MotoGP\\obj\\",
+      "outputPath": "C:\\_repos_\\.NET-course-files\\MotoGP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Natha\\AppData\\Roaming\\NuGet\\NuGet.Config",

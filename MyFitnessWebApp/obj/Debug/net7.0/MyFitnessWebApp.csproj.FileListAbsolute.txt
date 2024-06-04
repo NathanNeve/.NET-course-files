@@ -83,3 +83,6 @@ C:\Users\Natha\source\repos\MyFitnessWebApp\obj\Debug\net7.0\refint\MyFitnessWeb
 C:\Users\Natha\source\repos\MyFitnessWebApp\obj\Debug\net7.0\MyFitnessWebApp.pdb
 C:\Users\Natha\source\repos\MyFitnessWebApp\obj\Debug\net7.0\MyFitnessWebApp.genruntimeconfig.cache
 C:\Users\Natha\source\repos\MyFitnessWebApp\obj\Debug\net7.0\ref\MyFitnessWebApp.dll
+C:\_repos_\.NET-course-files\MyFitnessWebApp\obj\Debug\net7.0\MyFitnessWebApp.dll
+C:\_repos_\.NET-course-files\MyFitnessWebApp\obj\Debug\net7.0\refint\MyFitnessWebApp.dll
+C:\_repos_\.NET-course-files\MyFitnessWebApp\obj\Debug\net7.0\MyFitnessWebApp.pdb

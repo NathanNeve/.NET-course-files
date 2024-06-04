@@ -1,17 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\",
+  "WorkspaceRootPath": "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MyFitnessWebApp_f91394e1_d01a_4868_8fdb_861a66d7c184/True/SqlTable/dbo.Gym.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F7F688-8F64-44DC-8DF3-EC750201E75A}|MyFitnessWebApp.csproj|c:\\users\\natha\\source\\repos\\myfitnesswebapp\\controllers\\workoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F7F688-8F64-44DC-8DF3-EC750201E75A}|MyFitnessWebApp.csproj|c:\\_repos_\\.net-course-files\\myfitnesswebapp\\controllers\\workoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F7F688-8F64-44DC-8DF3-EC750201E75A}|MyFitnessWebApp.csproj|solutionrelative:controllers\\workoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F7F688-8F64-44DC-8DF3-EC750201E75A}|MyFitnessWebApp.csproj|c:\\users\\natha\\source\\repos\\myfitnesswebapp\\views\\workout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F7F688-8F64-44DC-8DF3-EC750201E75A}|MyFitnessWebApp.csproj|solutionrelative:views\\workout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,33 +19,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Gym [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MyFitnessWebApp_f91394e1_d01a_4868_8fdb_861a66d7c184/True/SqlTable/dbo.Gym.sql",
-              "ToolTip": "dbo.Gym [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-02-21T16:21:54.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\Views\\Workout\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Workout\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\Views\\Workout\\Index.cshtml",
-              "RelativeToolTip": "Views\\Workout\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-21T16:17:53.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "WorkoutController.cs",
-              "DocumentMoniker": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\Controllers\\WorkoutController.cs",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\Controllers\\WorkoutController.cs",
               "RelativeDocumentMoniker": "Controllers\\WorkoutController.cs",
-              "ToolTip": "C:\\Users\\Natha\\source\\repos\\MyFitnessWebApp\\Controllers\\WorkoutController.cs",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\MyFitnessWebApp\\Controllers\\WorkoutController.cs",
               "RelativeToolTip": "Controllers\\WorkoutController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAQwB0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
