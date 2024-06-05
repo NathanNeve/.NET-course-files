@@ -6,5 +6,5 @@ namespace MusicStore.Models.ViewModels
     {
         public List<CartItem> CartItems;
         public int cartTotal;
-    }
+        public int discount;    }
 }

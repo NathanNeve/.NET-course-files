@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>annotations</Nullable>
-    <!--<ImplicitUsings>enable</ImplicitUsings>-->
+    <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-MusicStore-bc2f3091-3b10-42ff-a320-3f2eca5c6b79</UserSecretsId>
   </PropertyGroup>
 

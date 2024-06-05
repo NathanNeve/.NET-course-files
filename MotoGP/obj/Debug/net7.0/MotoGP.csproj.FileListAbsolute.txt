@@ -29,3 +29,4 @@ C:\_repos_\.NET-course-files\MotoGP\obj\Debug\net7.0\refint\MotoGP.dll
 C:\_repos_\.NET-course-files\MotoGP\obj\Debug\net7.0\MotoGP.pdb
 C:\_repos_\.NET-course-files\MotoGP\obj\Debug\net7.0\MotoGP.genruntimeconfig.cache
 C:\_repos_\.NET-course-files\MotoGP\obj\Debug\net7.0\ref\MotoGP.dll
+C:\_repos_\.NET-course-files\MotoGP\obj\Debug\net7.0\MotoGP.MvcApplicationPartsAssemblyInfo.cs

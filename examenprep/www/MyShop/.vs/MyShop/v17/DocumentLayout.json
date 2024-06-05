@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MyShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06FD82C9-DAAC-4D00-9D93-1927E5654677}|MyShop.Web\\MyShop.Web.csproj|c:\\_repos_\\.net-course-files\\examenprep\\www\\myshop\\myshop.web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FD82C9-DAAC-4D00-9D93-1927E5654677}|MyShop.Web\\MyShop.Web.csproj|solutionrelative:myshop.web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MyShop\\MyShop.Web\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "MyShop.Web\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MyShop\\MyShop.Web\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "MyShop.Web\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:57:25.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

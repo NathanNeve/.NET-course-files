@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\_repos_\\.NET-course-files\\MotoGP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|c:\\_repos_\\.net-course-files\\motogp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|c:\\_repos_\\.net-course-files\\motogp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\MotoGP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\MotoGP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-05T06:15:16.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\MotoGP\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_NewLayout.cshtml",
               "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\MotoGP\\Views\\_NewLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\_NewLayout.cshtml",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\MotoGP\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",

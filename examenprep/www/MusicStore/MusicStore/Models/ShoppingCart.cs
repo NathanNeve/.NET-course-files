@@ -20,6 +20,11 @@ namespace MusicStore.Models
             CartTotal += amount;
         }
 
+        public void SubtractCartTotal(int amount)
+        {
+            CartTotal = amount;
+        }
+
         public ShoppingCart (HttpContext httpContext, StoreContext context)
         {
             _cartKey = GetCartKey(httpContext);
@@ -128,6 +133,18 @@ namespace MusicStore.Models
                 _context.CartItems.Remove(cartItem);
                 _context.SaveChanges();
             }
+        }
+
+        public void RemoveOneCart(int AlbumID)
+        {
+            // Get the matching cart and album instances
+            var cartItem = _context.CartItems.SingleOrDefault(
+                c => c.CartKey == _cartKey
+                && c.AlbumID == AlbumID);
+
+                cartItem.Count--;
+            _context.SaveChanges();
+
         }
     }
 }

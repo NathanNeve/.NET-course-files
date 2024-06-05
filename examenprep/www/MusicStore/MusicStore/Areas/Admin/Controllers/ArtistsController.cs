@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MusicStore.Data;
 using MusicStore.Models;
@@ -23,9 +22,14 @@ namespace MusicStore.Areas.Admin.Controllers
         }
 
         // GET: Admin/Artists
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string letter = null)
         {
-              return View(await _context.Artists.ToListAsync());
+            if (letter != null)
+            {
+                List<Artist> artistSorted = await _context.Artists.Where(a => a.Name.StartsWith(letter)).ToListAsync();
+                return View(artistSorted);
+            }
+            return View(await _context.Artists.ToListAsync());
         }
 
         // GET: Admin/Artists/Details/5

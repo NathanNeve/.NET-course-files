@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O++0FfMif61z9kjsteSs5UWUHuP9lzhZPspCtCTlrDZuk+L1TlV2z+HoQn3bYL3+bVO8jJXmkBseXdoC1WMBjA==",
+  "dgSpecHash": "qEzHLR3l7c0CFhXRD61IJaShFz8udhZA3vg3quKN3u9MZojMBJs3MwWon9XyriJKMDduzzNPTH5RU0iYzG9TPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Natha\\source\\repos\\MotoGP\\MotoGP.csproj",
+  "projectFilePath": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\MotoGP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natha\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Natha\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

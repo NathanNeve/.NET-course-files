@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MusicStore.Data;
 using MusicStore.Models;
+using MusicStore.Models.ViewModels;
 
 namespace MusicStore.Areas.Admin.Controllers
 {
@@ -22,12 +23,28 @@ namespace MusicStore.Areas.Admin.Controllers
             _context = context;
         }
 
+
         // GET: Admin/Albums
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int GenreID = -1, int ArtistID = -1, string Title = null)
         {
-            var storeContext = _context.Albums.Include(a => a.Artist).Include(a => a.Genre);
-            return View(await storeContext.ToListAsync());
+            var albums = _context.Albums.Include(a => a.Artist).Include(a => a.Genre);
+
+            var filteredAlbums = await albums
+                .Where(a => (GenreID == -1 || a.GenreID == GenreID)
+                         && (ArtistID == -1 || a.ArtistID == ArtistID)
+                         && (Title == null || a.Title.Contains(Title)))
+                .ToListAsync();
+
+            var listAlbumFilterVM = new ListAlbumsFilterViewModel
+            {
+                Albums = filteredAlbums,
+                Artists = new SelectList(await _context.Artists.ToListAsync(), "ArtistID", "Name"),
+                Genres = new SelectList(await _context.Genres.ToListAsync(), "GenreID", "Name")
+            };
+
+            return View(listAlbumFilterVM);
         }
+
 
         // GET: Admin/Albums/Details/5
         public async Task<IActionResult> Details(int? id)
