@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MyShop.Domain;
 using MyShop.Domain.Models;
 using MyShop.Infrastructure;
 using MyShop.Infrastructure.Repositories;
@@ -20,9 +21,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ShoppingContext>(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
 builder.Services.AddScoped<IRepository<Order>, OrderRepository>();
+builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
 builder.Services.AddScoped<IRepository<Customer>, CustomerRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 

@@ -9,6 +9,8 @@ namespace MyShop.Infrastructure
     {
         public static void Initialize(ShoppingContext context)
         {
+            // UOW
+            context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
             // Look for any products.

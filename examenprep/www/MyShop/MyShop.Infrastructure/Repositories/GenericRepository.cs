@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyShop.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,7 +14,7 @@ namespace MyShop.Infrastructure.Repositories
         private ShoppingContext _shoppingContext;
         private DbSet<T> table = null;
 
-        protected GenericRepository(ShoppingContext shoppingContext)
+        public GenericRepository(ShoppingContext shoppingContext)
         {
             _shoppingContext = shoppingContext;
             table = _shoppingContext.Set<T>();
@@ -41,6 +43,16 @@ namespace MyShop.Infrastructure.Repositories
         public void SaveChanges()
         {
             _shoppingContext.SaveChanges();
+        }
+
+        public IEnumerable<T> Find(Expression<Func<T, bool>> filter = null)
+        {
+            IQueryable<T> query = table;
+
+            if (filter != null)
+                query = query.Where(filter);
+
+            return query.ToList();
         }
     }
 }

@@ -5,33 +5,30 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyShop.Domain.Models;
 using MyShop.Infrastructure;
+using MyShop.Infrastructure.Repositories;
 using MyShop.Web.Models;
 
 namespace MyShop.Web.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly ShoppingContext _context;
+        private IUnitOfWork _uow;
 
-        public OrderController(ShoppingContext context)
+        public OrderController(IUnitOfWork uow)
         {
-            _context = context;
+            _uow = uow;
         }
 
         public IActionResult Index()
         {
-            var orders = _context.Orders
-                .Include(order => order.Orderlines)
-                .ThenInclude(orderline => orderline.Product).ToList();
+            var orders = _uow.OrderRepository.All();
 
             return View(orders);
         }
 
-
         public IActionResult Create()
         {
-            var products = _context.Products.ToList();
-            
+            var products = _uow.ProductRepository.All();
             return View(products);
         }
 
@@ -51,6 +48,14 @@ namespace MyShop.Web.Controllers
                 Country = model.Customer.Country
             };
 
+            var existing_customer = _uow.CustomerRepository.Find(filter: c => c.Name == model.Customer.Name).SingleOrDefault();
+
+            if (existing_customer != null)
+            {
+                customer = existing_customer;
+                _uow.CustomerRepository.Update(customer);
+            }
+
             var order = new Order
             {
                 Orderlines = model.LineItems
@@ -60,8 +65,8 @@ namespace MyShop.Web.Controllers
                 Customer = customer
             };
 
-            _context.Orders.Add(order);
-            _context.SaveChanges();
+            _uow.OrderRepository.Add(order);
+            _uow.SaveChanges();
 
             return Ok("Order Created");
         }
