@@ -98,5 +98,17 @@ namespace MotoGP.Controllers
             vm.Race = _context.Races.Single(r => r.RaceID == vm.Ticket.RaceID);
             return View(vm);
         }
+
+        [HttpPost]
+        public IActionResult PayTicket(int TicketID, bool paid)
+        {
+            var ticket = _context.Tickets.Single(t => t.TicketID == TicketID);
+            if (paid == true)
+            {
+                ticket.Paid = true;
+                _context.SaveChanges();
+            }
+            return RedirectToAction("ListTickets");
+        }
     }
 }

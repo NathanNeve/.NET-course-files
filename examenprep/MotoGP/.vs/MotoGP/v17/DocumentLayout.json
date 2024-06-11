@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|c:\\_repos_\\.net-course-files\\examenprep\\motogp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|c:\\_repos_\\.net-course-files\\examenprep\\motogp\\models\\viewmodels\\editticketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|solutionrelative:models\\viewmodels\\editticketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|c:\\_repos_\\.net-course-files\\examenprep\\motogp\\views\\shop\\editticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|solutionrelative:views\\shop\\editticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|c:\\_repos_\\.net-course-files\\examenprep\\motogp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E82B9-4D74-4F0C-AA57-FE7B1A423079}|MotoGP.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Title": "EditTicketVM.cs",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Models\\ViewModels\\EditTicketVM.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\EditTicketVM.cs",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Models\\ViewModels\\EditTicketVM.cs",
+              "RelativeToolTip": "Models\\ViewModels\\EditTicketVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T06:17:08.391Z",
+              "WhenOpened": "2024-06-06T18:31:38.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAcwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:31:19.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditTicket.cshtml",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Views\\Shop\\EditTicket.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\EditTicket.cshtml",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\MotoGP\\Views\\Shop\\EditTicket.cshtml",
+              "RelativeToolTip": "Views\\Shop\\EditTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T17:50:03.196Z",
               "EditorCaption": ""
             }
           ]

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>annotations</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>7cf13a12-5379-470c-80f2-1546927bec63</UserSecretsId>
   </PropertyGroup>

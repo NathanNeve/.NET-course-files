@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MvcMovieMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29DB0195-55F4-4365-A06A-0B23AA38277D}|MvcMovieMVC\\MvcMovieMVC.csproj|c:\\_repos_\\.net-course-files\\examenprep\\www\\mvcmoviemvc\\mvcmoviemvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DB0195-55F4-4365-A06A-0B23AA38277D}|MvcMovieMVC\\MvcMovieMVC.csproj|solutionrelative:mvcmoviemvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DB0195-55F4-4365-A06A-0B23AA38277D}|MvcMovieMVC\\MvcMovieMVC.csproj|c:\\_repos_\\.net-course-files\\examenprep\\www\\mvcmoviemvc\\mvcmoviemvc\\views\\movies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29DB0195-55F4-4365-A06A-0B23AA38277D}|MvcMovieMVC\\MvcMovieMVC.csproj|solutionrelative:mvcmoviemvc\\views\\movies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MvcMovieMVC\\MvcMovieMVC\\Views\\Movies\\List.cshtml",
+              "RelativeDocumentMoniker": "MvcMovieMVC\\Views\\Movies\\List.cshtml",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MvcMovieMVC\\MvcMovieMVC\\Views\\Movies\\List.cshtml",
+              "RelativeToolTip": "MvcMovieMVC\\Views\\Movies\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T18:48:54.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MvcMovieMVC\\MvcMovieMVC\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MvcMovieMVC\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\_repos_\\.NET-course-files\\examenprep\\www\\MvcMovieMVC\\MvcMovieMVC\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MvcMovieMVC\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwDAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:46:33.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -7,3 +7,12 @@
 <p>Race @Model.Race.Name</p>
 <p>Number @Model.Ticket.Number</p>
 <p>@Html.DisplayNameFor(model => model.Ticket.Paid)</p>
+
+
+<form action="PayTicket" method="post">
+    <input type="hidden" asp-for="ticketID"/>
+
+    <label asp-for="Paid">Paid</label>
+    <input asp-for="Paid" type="checkbox"/>
+    <input type="submit" name="PayTicket" value="Register" />
+</form>
